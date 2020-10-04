@@ -2,30 +2,38 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Federico from './Components/Federico/Federico'
-import NewComponent from './Components/NewComponent/NewComponent'
+//adding data table component
+//import { TableComponent } from "./Components/TableComponent/TableComponent";
+
+import  Nobel  from "./Components/TableComponent/Nobel";
+
+// import Federico from './Components/Federico/Federico'
+
+//import ClassComponent from './Components/ClassComponent/ClassComponent' //importing the new defined component 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>asdasd 1 2 3</p>
-        <a
+        </p> */}
+        
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React !!!
-        </a>
+        </a> */}
 
-        <Federico />
+        {/* <Federico /> */}
+        {/* <TableComponent/> */}
+        {/* <ClassComponent />   */}
 
-        <NewComponent />
+        <Nobel/>
 
       </header>
     </div>
